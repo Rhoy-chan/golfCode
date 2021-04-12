@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(img/bg.jpg);
+    background-size: cover;
+    font-family: sans-serif;
+}
+.container{
+    width: 400px;
+    height: 450px;
+    background: rgba(13, 13, 84, 0.845);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 30px;
+}
+h1{
+    margin-bottom: -30px;
+    color: black;
+    background: white;
+}
+.stroke{
+    float: left;
+    padding-top: 20px;
+    padding-left: 80px;
+}.par{
+    padding-top: 20px;
+}
+h5, h4, p{
+    font-family: Comic Sans MS;
+    font-weight: bold;
+   font-size: 2em;
+}
+h4{
+    color: white;
+}
+p{
+    color: white;
+    background: rgba(0, 0, 0, 0.804);
+    
+}
+.btn{
+    border: 1px solid darkblue;
+    color: white;
+    background: black;
+    font-size: 30px;
+    width: 150px;
+    height: 60px;
+    border-radius: 20px;
+}
